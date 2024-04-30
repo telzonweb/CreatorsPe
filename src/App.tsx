@@ -30,6 +30,7 @@ const queryClient = new QueryClient();
 
 function App() {
   const location = useLocation();
+  // console.log(location);
 
   return (
     <>
@@ -45,7 +46,7 @@ function App() {
             <Routes location={location} key={location.pathname}>
               {/* <Route index element={<Home />} /> */}
               <Route index element={<HomeConsulting />} />
-              <Route path="/seo-agency" element={<HomeSEOAgency />} />
+              {/* <Route path="/seo-agency" element={<HomeSEOAgency />} /> */}
               <Route path="/consulting" element={<HomeConsulting />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/blog" element={<Blog />} />
@@ -58,12 +59,12 @@ function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </AnimatePresence>
-          {/* {location.pathname === "/consulting" ? <FooterLayout2 /> : <Footer />} */}
-          {location.pathname === "/consulting" ? (
+          {location.pathname === "/consulting" ? <FooterLayout2 /> : <Footer />}
+          {/* {location.pathname === "/consulting" ? (
             <FooterLayout2 />
           ) : (
             <FooterLayout2 />
-          )}
+          )} */}
           <Toaster richColors />
           <BackToTop />
           <ScrollToTop />

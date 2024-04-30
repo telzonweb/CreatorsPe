@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import SiteLogo from "./site-logo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="container">
         <div className="pb-16 pt-28">
           <div className="gap-10 space-y-10 md:grid md:grid-cols-12 md:space-y-0">
-            <div className="col-span-3">
+            <div className="col-span-4">
               <Link to="/" className="shrink-0">
                 <SiteLogo
                   width={123}
@@ -31,7 +31,9 @@ const Footer = () => {
                 />
               </Link>
               <p className="mb-8 mt-6">
-                Tools to Effectively Build Your Brand and Grow Your Business.
+                At Creatorspe, we're the best at influencer marketing in India.
+                We connect brands with social media stars to tell
+                amazing stories
               </p>
               <div className="flex space-x-2">
                 <a
@@ -85,12 +87,12 @@ const Footer = () => {
                   </NavigationMenu>
                 </div>
               ))}
-            <div className="col-span-3 xl:col-span-2">
+            <div className="col-span-3 xl:col-span-4">
               <h2 className="mb-4 text-sm">Company</h2>
               <ul className="space-y-2 text-sm">
                 <li>
                   <address className="-mt-px leading-6">
-                    8910 University Center Lane Suite 620 San Diego, CA 92102
+                    Manish Nagar, Nagpur, Maharashtra 440037
                   </address>
                 </li>
                 <li>
@@ -99,13 +101,13 @@ const Footer = () => {
                     href="tel:+1-800-1554-456-123"
                     className="hover:text-primary"
                   >
-                    + 1 (800) 155 4561
+                    +91 9307189776
                   </a>
                 </li>
                 <li>
                   <span>Email: </span>
                   <a href="mailto:hi@margin.com" className="hover:text-primary">
-                    hi@margin.com
+                    info@telzonmarketing.in
                   </a>
                 </li>
               </ul>
@@ -116,9 +118,12 @@ const Footer = () => {
       <div className="border-t py-12">
         <div className="container text-center">
           <span className="text-xs">
-            © {new Date().getFullYear()} Margin React, Made by{" "}
-            <a href="https://deothemes.com" className="hover:text-primary">
-              DeoThemes
+            © {new Date().getFullYear()} CretorsPe, Product of{" "}
+            <a
+              href="https://telzonmarketing.in/"
+              className="hover:text-primary"
+            >
+              Telzon Marketing
             </a>
           </span>
         </div>

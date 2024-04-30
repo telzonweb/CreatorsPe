@@ -138,36 +138,36 @@ export const footerNav = [
       },
     ],
   },
-  {
-    title: "Solutions",
-    items: [
-      {
-        title: "Marketing Strategy",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Advertising",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "SMM",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "SEO",
-        href: "#",
-        external: false,
-      },
-      {
-        title: "Google Ads",
-        href: "#",
-        external: false,
-      },
-    ],
-  },
+  // {
+  //   title: "Solutions",
+  //   items: [
+  //     {
+  //       title: "Marketing Strategy",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Advertising",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "SMM",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "SEO",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //     {
+  //       title: "Google Ads",
+  //       href: "#",
+  //       external: false,
+  //     },
+  //   ],
+  // },
 ] satisfies FooterItem[];
 
 export const footerNav2 = [

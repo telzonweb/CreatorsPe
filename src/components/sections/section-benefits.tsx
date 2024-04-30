@@ -57,12 +57,10 @@ const SectionBenefits = () => {
             </div>
           </div>
           <div className="lg:w-2/5 lg:pl-10">
-            <h2 className="max-w-sm">
-              You can save time & money in your Business
-            </h2>
+            <h2 className="max-w-sm">Grow Your Business with Creatorspe!</h2>
             <p className="mb-8 text-lg">
-              As you may already know, there are an infinite number of things
-              you can test on your site to help you increase sales.
+              From Followers, For Followers: Our campaigns mesh with daily life,
+              turning your promotions into a fluid part of every conversation.
             </p>
             <div className="mb-6 flex space-x-4">
               <svg
