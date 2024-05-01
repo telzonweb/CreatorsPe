@@ -12,17 +12,12 @@ const About = useFramerTransition(
       <title>CretorsPe : Top Influencer Marketing Company</title>
     </Helmet>
     <main className="relative">
-      <SectionPageTitle
-        subtitle="Focus on engaging, reusable content that decrease the cost per leads
-					while helps you to increase profits margin. Margin strives to
-					deliver the tools and support that helps companies grow with
-					unparalleled success."
-      >
+      <SectionPageTitle subtitle="Creatorspe is an influencer marketing agency. We connect brands with popular online influencers to create real, successful marketing partnerships. Our agency manages the entire process from beginning to end. We find the right influencers for your brand's message and run full campaigns to increase your reach effectively">
         About
       </SectionPageTitle>
       <SectionChecklist />
       <SectionStats />
-      <SectionTeam />
+      {/* <SectionTeam /> */}
       <SectionCTALayout4 />
     </main>
   </>,

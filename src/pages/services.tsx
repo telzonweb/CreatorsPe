@@ -12,8 +12,11 @@ const Services = useFramerTransition(
       <title>Services</title>
     </Helmet>
     <main className="relative">
-      <SectionPageTitle subtitle="We offer a variety of services here to get you started and successfully suite every need using Margin. Choose the services that’s right for you.">
-        Services
+      <SectionPageTitle
+        subtitle="Creatorspe helps businesses grow online through Influencer Marketing and Creating Content. See how our services can help you connect better with your customers.
+"
+      >
+        What We Offer
       </SectionPageTitle>
       <SectionIconBoxes noTitle />
       <SectionPromoVideo />

@@ -1,6 +1,6 @@
 export const statistics = [
   {
-    number: "36",
+    number: "100+",
     title: "Sucessful Projects",
   },
   {
@@ -8,11 +8,11 @@ export const statistics = [
     title: "Achieved ROI",
   },
   {
-    number: "550",
+    number: "35+",
     title: "Happy Customers",
   },
   {
-    number: "3x",
+    number: "1.5x",
     title: "Increased Profits",
   },
 ];
@@ -23,7 +23,7 @@ const SectionStats = () => {
       <img
         src="statistic.jpg"
         alt="Statistics"
-        className="object-cover object-center absolute w-full h-full inset-0"
+        className="absolute inset-0 h-full w-full object-cover object-center"
       />
       <div className="container relative z-[1]">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">

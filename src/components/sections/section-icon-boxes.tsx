@@ -4,22 +4,26 @@ import IconBox from "@/components/icon-box";
 export const iconBoxes = [
   {
     icon: "icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
-    title: "Analytics and Research",
+    title: "Influencer Marketing",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Increase your brand's reach by partnering with popular online influencers. We carefully match your brand with the right influencers who share your values and can promote your products/services successfully.",
+    benefits:
+      "Finding the perfect influencer fit Managing influencer campaigns Tracking results and performance Optimizing campaigns for better results",
   },
   {
     icon: "icons/edit-document-4191_913956ad-aac3-4d29-b4ef-061756334d24.svg",
-    title: "Copywriting",
+    title: "Content Creation",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Get high-quality content like videos, blog posts and graphics made by our skilled team. Our content attracts new customers and keeps existing ones interested",
+    benefits:
+      "Planning an effective content strategy Creating various types of multimedia content Optimizing content for better online visibility Regularly updating content",
   },
-  {
-    icon: "icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
-    title: "Sales growth",
-    description:
-      "We also provide tangible results and measurable long-term value business.",
-  },
+  // {
+  //   icon: "icons/currency-2634_d41cd9f8-1db2-4236-b082-94568e599e40.svg",
+  //   title: "Sales growth",
+  //   description:
+  //     "We also provide tangible results and measurable long-term value business.",
+  // },
 ];
 
 const fadeInAnimationVariants = {
@@ -39,9 +43,9 @@ const fadeInAnimationVariants = {
 const SectionIconBoxes = ({ noTitle }: { noTitle?: boolean }) => {
   return (
     <section className="py-16 lg:py-24">
-      <div className="container">
+      <div className="container items-center border border-red-500">
         {!noTitle && (
-          <div className="flex justify-center">
+          <div className="flex justify-center text-center">
             <div className="text-center lg:w-3/5">
               <h2 className="mb-12">
                 Do you want to{" "}

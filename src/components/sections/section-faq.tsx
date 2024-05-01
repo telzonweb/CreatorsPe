@@ -9,19 +9,35 @@ import {
 
 const accordionItems = [
   {
-    title: "What is tax and legal advisory?",
+    title: "1. What services does Creatorspe offer?",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "Creatorspe specializes in influencer marketing and content creation, focusing on connecting brands with top influencers and producing engaging videos and Instagram Reels.",
   },
   {
-    title: "Technical team of enthusiastic?",
+    title: "2. How do we choose the right influencers for our brand?",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "We select influencers based on their alignment with your brand’s values, audience demographics, and engagement rates to ensure the best fit and impact.",
   },
   {
-    title: "Do you give guarantee and after sales service?",
+    title: "3. What types of content can you create for us?",
     content:
-      "The most comprehensive complete-system warranty in the solar industry. Hassle-free replacement, repair or reimbursement. Comprehensive complete-system warranty in the solar industry",
+      "We produce a variety of content types including promotional videos, educational clips, Instagram Reels, and other social media content tailored to your needs.",
+  },
+  {
+    title: "4. How do you measure the success of a campaign?",
+    content:
+      "Success is measured using key performance indicators such as engagement rates, reach, conversions, and overall campaign ROI. We provide detailed reports to show these metrics.",
+  },
+  {
+    title:
+      "5. Can Creatorspe help with a one-time project or do you offer long-term partnerships?",
+    content:
+      "We are flexible and can help with both one-time projects and long-term partnerships, adapting our approach to meet your specific marketing goals.",
+  },
+  {
+    title: "6.What makes Creatorspe different from other marketing agencies?",
+    content:
+      "Our dedication to crafting personalized strategies and creating genuine connections between brands and their audiences sets us apart. Plus, our ongoing support ensures your campaigns continue to perform well.",
   },
 ];
 
@@ -51,7 +67,7 @@ const SectionFAQ = () => {
               >
                 {accordionItems?.map((item, index) => (
                   <AccordionItem key={index} value={item.title}>
-                    <AccordionTrigger className="text-md">
+                    <AccordionTrigger className="text-start">
                       {item.title}
                     </AccordionTrigger>
                     <AccordionContent>
@@ -65,7 +81,7 @@ const SectionFAQ = () => {
               <span className="mt-14 inline-block text-lg">
                 Any Question?{" "}
                 <a href="mailto:support@margin.com" className="text-primary">
-                  support@margin.com
+                  info@creatorspe.com
                 </a>
               </span>
             </motion.div>

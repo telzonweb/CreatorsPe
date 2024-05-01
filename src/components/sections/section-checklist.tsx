@@ -7,7 +7,7 @@ const SectionChecklist = () => {
         <div className="mx-auto max-w-6xl">
           <div className="rounded-md bg-white px-6 py-16 text-center shadow-lg dark:bg-slate-800 dark:shadow-slate-850/20 sm:px-12">
             <h3 className="mb-6">
-              Sales organisations are able to set and manage performance goals
+              Where Your Brand's Story Meets Its Audience headline
             </h3>
             <div className="flex flex-wrap text-left md:flex-nowrap md:space-x-10">
               <div className="w-full md:w-1/2">
@@ -17,7 +17,7 @@ const SectionChecklist = () => {
                     className="mr-1 mt-0.5 shrink-0 fill-green"
                   />
                   <span className="text-md text-foreground dark:text-slate-400">
-                    Develop a comprehensive paid search strategy
+                    Master the Market with Informed Strategies
                   </span>
                 </div>
                 <div className="mb-1 flex">
@@ -26,7 +26,7 @@ const SectionChecklist = () => {
                     className="mr-1 mt-0.5 shrink-0 fill-green"
                   />
                   <span className="text-md text-foreground dark:text-slate-400">
-                    Monitor performance throughout each sales
+                    Transform clicks into connections
                   </span>
                 </div>
               </div>
@@ -37,7 +37,7 @@ const SectionChecklist = () => {
                     className="mr-1 mt-0.5 shrink-0 fill-green"
                   />
                   <span className="text-md text-foreground dark:text-slate-400">
-                    Ensure each task is assigned to the right person
+                    Insightful strategies for smart moves.
                   </span>
                 </div>
                 <div className="mb-1 flex">
@@ -46,7 +46,7 @@ const SectionChecklist = () => {
                     className="mr-1 mt-0.5 shrink-0 fill-green"
                   />
                   <span className="text-md text-foreground dark:text-slate-400">
-                    Clear communication can easily manage
+                    Boost Visibility and Interaction
                   </span>
                 </div>
               </div>

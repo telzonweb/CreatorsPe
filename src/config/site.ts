@@ -34,10 +34,10 @@ export const mainNav = [
     title: "Services",
     href: "/services",
   },
-  {
-    title: "Pricing",
-    href: "/pricing",
-  },
+  // {
+  //   title: "Pricing",
+  //   href: "/pricing",
+  // },
 
   // {
   //   title: "Pages",

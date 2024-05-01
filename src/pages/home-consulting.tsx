@@ -18,7 +18,7 @@ const HomeConsulting = useFramerTransition(
       <SectionPartnersLayout2 />
       <SectionBenefits />
       <SectionIconBoxesLayout2 />
-      <SectionTestimonialsSliderLayout2 />
+      {/* <SectionTestimonialsSliderLayout2 /> */}
       <SectionFAQ />
       <SectionCTALayout3 />
     </main>

@@ -11,49 +11,49 @@ export const iconBoxes = [
   {
     icon: <ContactsLineIcon className="fill-primary" size={32} />,
     iconBase: "bg-[#FEE8E8]",
-    title: "Consultant Analytics",
+    title: "Influencer Connections",
     description:
-      "Provide solutions that improve efficiency and solve company issues, analyzing business data and increasing revenue levels.",
+      "We connect your brand with the right influencers who really speak to your audience and share your values.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#FA6262]",
   },
   {
     icon: <Message2LineIcon className="fill-[#44D88D]" size={32} />,
     iconBase: "bg-[#E3F9EE]",
-    title: "SEO Audits & Strategy",
+    title: "Video & Reels Creation",
     description:
-      "Provide solutions that improve efficiency and solve company issues, analyzing business data and increasing revenue levels.",
+      "Boost your brand with custom-made videos and Instagram Reels that grab and keep your audience's attention.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#44D88D]",
   },
   {
     icon: <ListSettingsLineIcon className="fill-[#4C86E7]" size={32} />,
     iconBase: "bg-[#D3E9FF]",
-    title: "On-page SEO Optimization",
+    title: "Campaign Management",
     description:
-      "Provide solutions that improve efficiency and solve company issues, analyzing business data and increasing revenue levels.",
+      "We handle everything from start to finish, creating marketing plans that meet your goals and get results.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#4C86E7]",
   },
   {
     icon: <FileTextLineIcon className="fill-[#7444FF]" size={32} />,
     iconBase: "bg-[#EAE3FF]",
-    title: "Advisers & Intermediaries",
+    title: "Insights from Data",
     description:
-      "Provide solutions that improve efficiency and solve company issues, analyzing business data and increasing revenue levels.",
+      "Use our simple reports to see what's working and what's not, so we can keep improving your campaigns.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#7444FF]",
   },
   {
     icon: <Database2LineIcon className="fill-[#FFAF13]" size={32} />,
     iconBase: "bg-[#FFF3DC]",
-    title: "Social Media Marketing",
+    title: "Market Analysis",
     description:
-      "Provide solutions that improve efficiency and solve company issues, analyzing business data and increasing revenue levels.",
+      "We keep an eye on market trends to make sure your marketing is always on point and effective.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#FFAF13]",
   },
   {
     icon: <Key2LineIcon className="fill-[#B939E5]" size={32} />,
     iconBase: "bg-[#FAF1FF]",
-    title: "Network Security",
+    title: "Support & Improvement",
     description:
-      "Provide solutions that improve efficiency and solve company issues, analyzing business data and increasing revenue levels.",
+      "Our team is here for you, always ready to help and make your marketing even better as things change.",
     shadow: "shadow-[0_1px_6px_rgba(61,65,84,.15),0_5px_0_0_#B939E5]",
   },
 ];
@@ -79,9 +79,9 @@ const SectionIconBoxesLayout2 = () => {
         <div className="flex justify-center">
           <div className="text-center lg:w-3/5">
             <h2 className="mb-12">
-              Do you want to{" "}
-              <span className="text-primary">generate more traffic</span> to
-              your website? We know the solution.
+              Let's Take Your Brand to{" "}
+              <span className="text-primary">New Heights</span> to your with
+              Creatorspe's Expertise!
             </h2>
           </div>
         </div>
