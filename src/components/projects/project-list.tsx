@@ -3,10 +3,8 @@ import { useState, useEffect, useCallback } from "react";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import axios from 'axios'
-import {
-  useQuery,
-} from '@tanstack/react-query'
+import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
 
 type ProjectListProps = {
   limit: number;
@@ -22,16 +20,13 @@ export default function ProjectList({
   const [_, setTotalItems] = useState<number | null>(null);
 
   const { isPending, error, data } = useQuery({
-    queryKey: ['projects'],
-    queryFn: () =>
-      axios
-        .get('/data/projects.json')
-        .then((res) => res.data),
-  })
+    queryKey: ["projects"],
+    queryFn: () => axios.get("/data/projects.json").then((res) => res.data),
+  });
 
   const getTotalItems = useCallback(async () => {
     try {
-      const total = 12
+      const total = 12;
       setTotalItems(total);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -42,7 +37,7 @@ export default function ProjectList({
     getTotalItems();
   }, [getTotalItems]);
 
-  if (error) return 'An error has occurred: ' + error.message
+  if (error) return "An error has occurred: " + error.message;
 
   const content = (
     <>
@@ -63,9 +58,7 @@ export default function ProjectList({
       </div>
       {data?.length && showPagination ? (
         <div className="mt-10 text-center">
-          <Button
-            size={"lg"}
-          >Load more</Button>
+          <Button size={"lg"}>Load more</Button>
         </div>
       ) : null}
     </>

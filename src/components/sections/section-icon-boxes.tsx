@@ -43,9 +43,9 @@ const fadeInAnimationVariants = {
 const SectionIconBoxes = ({ noTitle }: { noTitle?: boolean }) => {
   return (
     <section className="py-16 lg:py-24">
-      <div className="container items-center border border-red-500">
+      <div className="container flex items-center justify-center ">
         {!noTitle && (
-          <div className="flex justify-center text-center">
+          <div className="flex justify-center">
             <div className="text-center lg:w-3/5">
               <h2 className="mb-12">
                 Do you want to{" "}

@@ -5,6 +5,7 @@ import SectionStats from "@/components/sections/section-stats";
 import SectionTeam from "@/components/sections/section-team";
 import SectionCTALayout4 from "@/components/sections/section-cta-layout-4";
 import { Helmet } from "react-helmet";
+import { Instagram } from "@/components/Instagram";
 
 const About = useFramerTransition(
   <>
@@ -18,6 +19,8 @@ const About = useFramerTransition(
       <SectionChecklist />
       <SectionStats />
       {/* <SectionTeam /> */}
+      {/* <Instagram /> */}
+      <Instagram />
       <SectionCTALayout4 />
     </main>
   </>,

@@ -47,7 +47,7 @@ function App() {
               {/* <Route index element={<Home />} /> */}
               <Route index element={<HomeConsulting />} />
               {/* <Route path="/seo-agency" element={<HomeSEOAgency />} /> */}
-              <Route path="/consulting" element={<HomeConsulting />} />
+              {/* <Route path="/consulting" element={<HomeConsulting />} /> */}
               <Route path="/projects" element={<Projects />} />
               <Route path="/blog" element={<Blog />} />
               <Route path="/single-post" element={<SinglePost />} />
